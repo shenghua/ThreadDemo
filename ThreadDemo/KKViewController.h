@@ -10,4 +10,5 @@
 
 @interface KKViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *ticketsLabel;
 @end
